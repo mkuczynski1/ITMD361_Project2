@@ -30,6 +30,9 @@ p {
 #content{
 	padding-left: 1%;
 }
+#content p{
+	font-family: "Times New Roman", serif;
+}
 #hobbies-content{
 	padding-left: 1%;
 }
