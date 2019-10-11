@@ -4,6 +4,9 @@
     margin:0;
     padding:0;
     text-align:center;
+    background-color: #FFF8DC;
+    position: sticky;
+    top: 0;
 }
 .nav li{
     display:inline;
@@ -11,4 +14,17 @@
 .nav a{
     display:inline-block;
     padding:10px;
+}
+
+body {
+  background-color: #F5F5DC;
+}
+#content{
+	padding-left: 1%;
+}
+#hobbies-content{
+	padding-left: 1%;
+}
+#pets-content{
+	padding-left: 1%;
 }
