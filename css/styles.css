@@ -15,7 +15,6 @@
     display:inline-block;
     padding:10px;
 }
-
 body {
   background-color: #F5F5DC;
 }
@@ -27,6 +26,22 @@ body {
 }
 #pets-content{
 	padding-left: 1%;
+}
+#contact-info{
+	font-family: "Open Sans", sans-serif;
+	text-align: center;
+}
+#resume-experience h3{
+	text-decoration: underline;
+}
+#resume-qualifications h3{
+	text-decoration: underline;
+}
+#resume-education h3{
+	text-decoration: underline;
+}
+#resume-skills h3{
+	text-decoration: underline;
 }
 p {
   font-family: "Georgia", serif;
