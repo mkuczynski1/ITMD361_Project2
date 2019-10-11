@@ -1,3 +1,14 @@
+video {
+	height:640px;
+	width:360px;
+	border: 3px solid black;
+}
+body {
+  background-color: #F5F5DC;
+}
+p {
+  font-family: "Georgia", serif;
+}
 .nav{
     border:1px solid #000000;
     border-width:1px 0;
@@ -7,6 +18,7 @@
     background-color: #FFF8DC;
     position: sticky;
     top: 0;
+    font-family: "Open Sans", sans-serif;
 }
 .nav li{
     display:inline;
@@ -14,9 +26,6 @@
 .nav a{
     display:inline-block;
     padding:10px;
-}
-body {
-  background-color: #F5F5DC;
 }
 #content{
 	padding-left: 1%;
@@ -31,18 +40,32 @@ body {
 	font-family: "Open Sans", sans-serif;
 	text-align: center;
 }
-#resume-experience h3{
+#content h3{
 	text-decoration: underline;
 }
-#resume-qualifications h3{
+#resume-experience strong{
+	font-style: italic;
+}
+
+#hobbies-content h2{
+	color: #808080;
 	text-decoration: underline;
 }
-#resume-education h3{
-	text-decoration: underline;
+#hobbies-content img {
+	border: 3px solid black;
+	height: 256px;
+	width: 256px;
 }
-#resume-skills h3{
-	text-decoration: underline;
+#hobbies-content div {
+	border: 1px solid black;
+
 }
-p {
-  font-family: "Georgia", serif;
+#pets-content img{
+	border: 3px solid black;
+	height: 384px;
+	width: 216px;
+}
+#pets-content h2{
+	color: blue;
+	text-decoration: underline;
 }
