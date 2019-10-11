@@ -28,3 +28,6 @@ body {
 #pets-content{
 	padding-left: 1%;
 }
+p {
+  font-family: "Georgia", serif;
+}
