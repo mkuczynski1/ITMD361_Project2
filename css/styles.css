@@ -5,6 +5,7 @@ video {
 }
 body {
   background-color: #F5F5DC;
+  color: #333333;
 }
 p {
   font-family: "Georgia", serif;
@@ -51,17 +52,23 @@ p {
 }
 
 #hobbies-content h2{
-	color: #808080;
+	color: #474747;
 	text-decoration: underline;
 }
 #hobbies-content img {
 	border: 3px solid black;
 	height: 256px;
 	width: 256px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 #hobbies-content div {
 	border: 1px solid black;
-
+	width: 50%;
+	margin: auto;
+	margin-top: 2%;
+	padding-bottom: 1%;
 }
 #pets-content img{
 	border: 3px solid black;
